@@ -1,5 +1,5 @@
 ---
-title: Section 1 - Overview
+title: Section 1 - Digital Forensics
 nav_order: 2
 ---
 
