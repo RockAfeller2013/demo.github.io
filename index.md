@@ -1,12 +1,5 @@
 ---
+layout: default
 title: Home
-nav_order: 1
+nav_exclude: fales
 ---
-
-# Welcome to FOR500 Docs
-
-This site contains materials for **Digital Forensics and Advanced Data Triage**.
-
-Use the sidebar to navigate through sections.
-
-version 1.0
