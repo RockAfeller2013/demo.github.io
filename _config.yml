@@ -8,11 +8,14 @@ repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
 #logo: 'https://www.detectx.com.au/wp-content/uploads/2020/02/1_rexdjcU2jzkGpA2vBk_udA.png'
 #site_favicon: 'https://www.detectx.com.au/wp-content/uploads/2020/02/1_rexdjcU2jzkGpA2vBk_udA.png'
 edit_on_github: true
-github_docs_folder: fales
+github_docs_folder: true
 sticky_navigation: true
 prev_next_buttons_location: both
 search_enabled: true
 hljs_style: github-gist
+
+nav_order:
+  - Home
 
 #plugins:
 # - jekyll-toc
