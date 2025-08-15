@@ -4,6 +4,10 @@ title: Section 1
 nav_order: 1
 ---
 
+<!-- toc -->
+<!-- tocstop -->
+
+
 # Demo Pages Index
 
 This is an index page, so the URL for this page doesn't need to end in
