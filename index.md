@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Home
-nav_exclude: fales
+title: Index
+nav_exclude: true
 ---
