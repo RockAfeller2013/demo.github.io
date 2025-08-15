@@ -2,6 +2,7 @@
 layout: default
 title: Demo Pages Index
 nav_order: 1
+toc: true
 ---
 
 # Demo Pages Index
