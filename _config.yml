@@ -17,6 +17,6 @@ hljs_style: github-gist
 nav_order:
   - Home
 
-#plugins:
-# - jekyll-toc
+plugins:
+ - jekyll-toc
 
