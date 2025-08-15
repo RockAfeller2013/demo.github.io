@@ -4,8 +4,9 @@ title: Section 1
 nav_order: 1
 ---
 
-<!-- toc -->
-<!-- tocstop -->
+## Table of Contents
+{:toc}
+
 
 
 # Demo Pages Index
