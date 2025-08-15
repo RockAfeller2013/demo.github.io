@@ -1,4 +1,4 @@
-title: Read The Docs Jekyll Theme
+title: Demo
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
 remote_theme: carlosperate/jekyll-theme-rtd
 
@@ -14,7 +14,7 @@ prev_next_buttons_location: both
 search_enabled: true
 hljs_style: github-gist
 
-nav_order:
-  - Home
+#nav_order:
+#  - Home
 
 
