@@ -20,3 +20,9 @@ nav_order:
 plugins:
  - jekyll-toc
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
