@@ -1,0 +1,59 @@
+{% assign yt_id       = include.id | default: "" %}
+{% assign yt_playlist = include.playlist | default: "" %}
+{% assign yt_start    = include.start | default: "" %}
+{% assign yt_autoplay = include.autoplay | default: "0" %}
+{% assign yt_mute     = include.mute | default: "0" %}
+{% assign yt_width    = include.width | default: "100%" %}
+{% assign yt_height   = include.height | default: "auto" %}
+
+{% comment %}
+  Build the YouTube embed URL
+{% endcomment %}
+{% if yt_playlist != "" %}
+  {% assign yt_src = "https://www.youtube.com/embed/videoseries?list=" | append: yt_playlist %}
+{% else %}
+  {% assign yt_src = "https://www.youtube.com/embed/" | append: yt_id %}
+{% endif %}
+
+{% assign params = "" %}
+{% if yt_start != "" %}
+  {% assign params = params | append: "start=" | append: yt_start %}
+{% endif %}
+{% if yt_autoplay != "0" %}
+  {% assign params = params | append: "&autoplay=" | append: yt_autoplay %}
+{% endif %}
+{% if yt_mute != "0" %}
+  {% assign params = params | append: "&mute=" | append: yt_mute %}
+{% endif %}
+
+{% if params != "" %}
+  {% assign yt_src = yt_src | append: "?" | append: params | remove_first: "&" %}
+{% endif %}
+
+<div class="video-container">
+  <iframe
+    src="{{ yt_src }}"
+    frameborder="0"
+    allowfullscreen
+    style="width:{{ yt_width }}; height:{{ yt_height }};">
+  </iframe>
+</div>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
