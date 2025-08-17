@@ -14,3 +14,4 @@ To Do;
 - Video demo
 - Data Science Demo
 - Notebook
+- Single Page scroll - https://alvarotrigo.com/fullPage/
