@@ -12,10 +12,10 @@ Autoplay single video muted:
 
 
 Fixed size autoplay:
-
-THese don't seem to work, playlist is WIP.
-
 {% include youtube.html id="dQw4w9WgXcQ" width="800px" height="450px" autoplay="1" %}
+
+These don't seem to work, playlist is WIP.
+
 
 Playlist starting at 30 seconds:
 {% include youtube.html playlist="PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU" start="30" %}
