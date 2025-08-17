@@ -28,8 +28,11 @@ WebGL Test
 
 # WebGL Test
 
+# WebGL Test
+
 <canvas id="glcanvas" width="400" height="300"></canvas>
 
+{% raw %}
 <script>
   const canvas = document.getElementById("glcanvas");
   const gl = canvas.getContext("webgl");
@@ -41,6 +44,7 @@ WebGL Test
     gl.clear(gl.COLOR_BUFFER_BIT);
   }
 </script>
+{% endraw %}
 
    start="30"
    autoplay="1"
