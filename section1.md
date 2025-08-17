@@ -45,13 +45,3 @@ These don't seem to work, playlist is WIP.
 </script>
 {% endraw %}
 
-   start="30"
-   autoplay="1"
-   mute="1"
-   width="800px"
-   height="450px" %}
-
-{% include youtube.html playlist="LvsgCdWss4I&list=PLg6pANed2DOem5mckBSfX0nSZeTwjNsCH" start="30" %}
-
-https://www.youtube.com/watch?v=LvsgCdWss4I&list=PLg6pANed2DOem5mckBSfX0nSZeTwjNsCH
-
