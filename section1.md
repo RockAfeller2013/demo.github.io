@@ -22,6 +22,26 @@ Playlist starting at 30 seconds:
 
 {% include youtube.html 
    playlist="PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU"
+
+
+WebGL Test
+
+# WebGL Test
+
+<canvas id="glcanvas" width="400" height="300"></canvas>
+
+<script>
+  const canvas = document.getElementById("glcanvas");
+  const gl = canvas.getContext("webgl");
+
+  if (!gl) {
+    alert("WebGL not supported");
+  } else {
+    gl.clearColor(0.0, 0.0, 0.0, 1.0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+  }
+</script>
+
    start="30"
    autoplay="1"
    mute="1"
